@@ -62,7 +62,7 @@ const Hr = styled.hr`
 `;
 
 const Login = styled.div``;
- 
+
 const Button = styled.button`
   padding: 5px 15px;
   background-color: transparent;
@@ -91,7 +91,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
                 <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
                     <Logo>
                         <Img src={LamaTube} />
-                        LamaTube
+                        UTube
                     </Logo>
                 </Link>
                 <Item>
@@ -126,7 +126,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
                     </Link>
                 </Login>
                 <Hr />
-                <Title>BEST OF LAMATUBE</Title>
+                <Title>BEST OF UTUBE</Title>
                 <Item>
                     <LibraryMusicOutlinedIcon />
                     Music
